@@ -9,15 +9,26 @@ A Android app demo with dlib face recongnition
 ## Usage
 Connect your device to PC
 
-* #####  Enter your device
-```adb shell```
-* ##### Create dlib directory
-```mkdir -p /sdcard/dlib/faces```
-* ##### Exit the device then push necessary files
- ```adb push shape_predictor_5_face_landmarks.dat /sdcard/dlib```
- ```adb push dlib_face_recognition_resnet_model_v1.dat /sdcard/dlib```
-* ##### Push the face photo that you want it to be tracking/recongnized
- ```adb push xxx /sdcard/faces```
+1. **Enter your device**
+```
+adb shell
+```
+
+2. **Create dlib directory**
+```
+mkdir -p /sdcard/dlib/faces
+```
+
+3. **Exit the device then push necessary files**
+ ```
+ adb push shape_predictor_5_face_landmarks.dat /sdcard/dlib
+ adb push dlib_face_recognition_resnet_model_v1.dat /sdcard/dlib
+ ```
+ 
+4. **Push the face photo that you want it to be tracking/recongnized**
+ ```
+ adb push xxx /sdcard/faces
+ ```
 
 You can find the *.dat files in dat directory.
 
