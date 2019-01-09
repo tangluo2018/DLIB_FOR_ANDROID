@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DLIB FOR ANDROID</string>
+    <string name="detect_btn">Detect</string>
+    <string name="track_btn">Track</string>
+    <string name="recognize_btn">Recognize</string>
+    <string name="rect_btn">Rectangle</string>
+    <string name="landmark_btn">Landmark</string>
+    <string name="Initializing">Initializing</string>
+</resources>

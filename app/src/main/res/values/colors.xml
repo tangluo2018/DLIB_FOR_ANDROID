@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+
+    <color name="darkLiver">#50514F</color>
+    <color name="sunsetOrange">#F25F5C</color>
+    <color name="mustard">#FFE066</color>
+    <color name="lapisLazuli">#247BA0</color>
+    <color name="greenSheen">#70C1B3</color>
+</resources>
