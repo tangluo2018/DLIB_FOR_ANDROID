@@ -35,7 +35,7 @@ You can find the *.dat files in dat directory.
 ## Features
 This project is based on [dlib-android](https://github.com/tzutalin/dlib-android), and dlib-android project depends on a third party library, the OpenCV-android-sdk. OpenCV was removed from this project and png/jpeg are supported default.
 
-* Shared library was built default, find it app/libs/armeabi-v7a/libdlib.so.
+* Shared library was prebuilt default, find it app/libs/armeabi-v7a/libdlib.so.
 
 * PNG and JEPG are supported default in dlib Shared library.
 
