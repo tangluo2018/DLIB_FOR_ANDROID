@@ -2,7 +2,9 @@
 A Android app demo with dlib face recongnition
 
 ## Build & Install
-*  Git pull the source code and import into AndroidStudio as a Android project, then you can build it in the AndroidStudio IDE.
+* Git pull the source code and import into AndroidStudio as a Android project, then you can build it in the AndroidStudio IDE.
+
+* Edit file local.propertise to set your own ndk.dir and sdk.dir
 
 * Connect your Android device to the PC, build the project and the app demo will be installed into your device automatically.
 
