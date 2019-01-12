@@ -12,7 +12,7 @@ android {
         externalNativeBuild {
             cmake {
                 cppFlags "-std=c++11 -O3"
-                arguments "-DANDROID_STL=c++_shgared", "-DANDROID_CPP_FEATURES=rtti exceptions",
+                arguments "-DANDROID_STL=c++_shared", "-DANDROID_CPP_FEATURES=rtti exceptions",
                         "-DCMAKE_BUILD_TYPE=Release"
 //                targets "dlib"
             }
